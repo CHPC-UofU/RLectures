@@ -1,0 +1,42 @@
+What is R?
+
+Inspired by S (developed at AT&T). -> B, C
+S -> S-Plus (Commerical)
+
+R: free
+
+R:
+ * standard among professional statisticians
+ * R comes with a package of datasets.
+   help(datasets)  | ?datasets
+   library(help = "datasets") 
+ * bad one:
+   http://spectrum.ieee.org/computing/software/the-2016-top-programming-languages
+
+R has elements of:
+ * procedural languages
+ * OO-type languages
+   plot : p 12
+ * functional languages
+
+
+# 0. Simple start:
+#    ------------
+How to run R?
+------------
+a. interactive: after invoking the command line R or within RStudio
+   e.g.:
+   ----
+     # ------------------
+     R>2+2
+     # ------------------
+     R>source("myfunc.r")
+     R>myFirstFunction('hello')
+
+b. Batch -> Rscript 
+   R CMD BATCH --vanilla  myfunc2.r    # --vanilla: Do not load startup file info & Do NOT SAVE ANY
+   or
+   Rscript --vanilla myfunc2.r
+
+   # What is the difference between 'R CMD BATCH' vs. 'Rscript'
+

@@ -1,0 +1,4 @@
+22, 16, John, Doe, MALE, 2015-05-10
+40, 18, Edgar, Poe, MALE, 1849-10-07
+72, 36, Walt, Whitman, MALE, 1892-03-26
+41, 36, Jane, Austen, FEMALE, 1817-07-18 

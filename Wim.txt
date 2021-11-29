@@ -1,0 +1,12 @@
+getwd()
+setwd()
+
+# Loading packages: library() 
+# install.packages() -> See website
+
+# Help: ? vs ??
+
+# Editor -> rstudio
+.RData
+.Rhistory
+

@@ -1,0 +1,44 @@
+R based on S (Bell Labs)
+Ross Ithaka & Robert Gentleman (Auckland - New Zealand)
+R Core Team
+
+Still to do:
+Chapter 7: Plotting
+Chapter 8: Reading/Writing
+
+General things:
+---------------
+R case sensitive
+R prompt options 
+Comment -> hash-tag/# sign
+
+Where are we?
+------------
+Invoke from command line
+module load R
+R
+R>
+getwd()       # Get Working Directory
+setwd("$PATH")  # Set Working Directory 
+
+
+load packages:
+-------------
+library(MASS)     # Load the installed package "MASS" in your env. 
+install.packages("hermite")
+update.packages()
+
+?mean    help about the mean function
+??mean   brings up list of functions of which the help files contain the string mean
+         
+same as:
+help("mean")
+help.search("mean") 
+
+workspace:
+---------
+ls()       # List ALL objects in the workspace
+q()        # Quit Workspace
+.RData     # Data saved of the session 
+.Rhistory  # History
+
